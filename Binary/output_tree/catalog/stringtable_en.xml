@@ -1,0 +1,12 @@
+<strings>
+     <entry id="$[HXH_MESSAGE]" str="Select app and choose command."/>
+     <entry id="$[OK]" str="OK"/>
+     <entry id="$[VERSION]" str="HXH"/>
+     <entry id="$[CATALOG_HXH_1]" str="Edit"/>
+     <entry id="$[CATALOG_HXH_2]" str="Remove"/>
+     <entry id="$[CATALOG_HXH_3]" str="Save"/>
+     <entry id="$[CATALOG_HXH_4]" str="Map"/>
+     <entry id="$[CATALOG_HXH_5]" str="Label"/>
+     <entry id="$[ADD_BUTTON]" str="Add"/>
+     <entry id="$[EDIT_BUTTON]" str="Edit"/>
+</strings>

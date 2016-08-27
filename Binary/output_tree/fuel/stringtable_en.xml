@@ -1,0 +1,8 @@
+<strings>
+     <entry id="$[HXH_MESSAGE]" str="Select app and choose command."/>
+     <entry id="$[OK]" str="OK"/>
+       <!--comment-->
+     <entry id="$[FUEL_HXH_1]" str="gasoline"/>
+     <entry id="$[FUEL_HXH_2]" str="diesel"/>
+     <entry id="$[FUEL_HXH_3]" str="electronic"/>
+</strings>

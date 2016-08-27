@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="strings" default="stringtable">
+    <property name="string_lib" value="lib"/>
+    <property name="string_jar" value="StringTable.jar"/>
+    <property name="HU_Type" value="VIP"/>
+    <!--property name="string_lib" value="../strings/lib"/-->
+    <path id="string.3rd-party-classpath">
+        <fileset dir="${string_lib}">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+    
+    <target name="run">
+        <java classname="generator.stringtable.dev.StringTableHUMaven.Inputer" classpath="${string_jar}">
+            <classpath refid="string.3rd-party-classpath"/>
+            <arg value="${HU_Type}"/>
+        </java>
+        
+    </target>
+</project>

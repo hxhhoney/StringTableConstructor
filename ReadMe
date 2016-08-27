@@ -1,0 +1,19 @@
+#StringTableGenerator
+By Cathy Huang
+1.Function:
+This is a simplified version of string table generator.
+Automatically generate stringtables_<lang>.xml and store them in the required directory(output_tree). 
+
+2.Structure:
+(1)Database:This file includes all information to build our MySql to store our strings.
+(2)Source: Source code.
+(3)Binary: jar files to execute. Notice StringTable.jar is our jar and jar in lib is our dependent jar(for sql). We should set our class path correctly in the build.xml under Ant.
+
+
+3. How to run:
+Open Terminal, and go to StringTableConstructor/Binary
+Set up HU_TYPE or other input arguments in build.xml. Here it is “VIP”, for other information please refer to Database.
+
+Then, type: ant run.
+
+4. Result: you will see there are required stringtable_<lang>.xml generated and stored under output_tree.
