@@ -2,7 +2,7 @@
 <project name="strings" default="stringtable">
     <property name="string_lib" value="lib"/>
     <property name="string_jar" value="StringTable.jar"/>
-    <property name="HU_Type" value="VIP"/>
+    <property name="HU_Type" value="NORMAL"/>
     <!--property name="string_lib" value="../strings/lib"/-->
     <path id="string.3rd-party-classpath">
         <fileset dir="${string_lib}">
